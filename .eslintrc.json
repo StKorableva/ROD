@@ -13,8 +13,11 @@
         "prettier",
         "react-hooks"
     ],
-    "extends": [ "react-app", "prettier" ],
-    "rules": {
+    "extends": [
+        "react-app",
+        "prettier"
+    ],
+    /*   "rules": {
         "prettier/prettier": [
             "error",
             {
@@ -23,5 +26,5 @@
                 "printWidth": 120
             }
         ]
-    }
+    } */
 }
