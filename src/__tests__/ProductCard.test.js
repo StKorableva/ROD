@@ -1,7 +1,9 @@
-import { shallow } from "enzyme";
+import Enzyme, { shallow } from "enzyme";
+import Adapter from "enzyme-adapter-react-16";
 import toJSON from "enzyme-to-json";
 import ProductCard from "../components/ProductCard/ProductCard";
 
+Enzyme.configure({ adapter: new Adapter() });
 describe("base test", () => {
 	let component = shallow(
 		<ProductCard

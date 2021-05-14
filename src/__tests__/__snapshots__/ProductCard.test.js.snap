@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`base test snapshot test 1`] = `
+<div
+  className="productCard"
+  onClick={[Function]}
+>
+  <div
+    className="productCard__addToFavorites"
+    onClick={[Function]}
+  />
+  <img
+    alt="houston we have a problems"
+    className="productCard__img"
+    src="./test"
+  />
+  <p
+    className="productCard__text"
+  >
+    test data / style for test(without fonts)
+  </p>
+  <p
+    className="productCard__price"
+  >
+    1000
+    ₽
+  </p>
+</div>
+`;
