@@ -10,7 +10,7 @@ function ProductCard(props) {
 			<div className="productCard__addToFavorites" onClick={addToFavoritesClickHandler}></div>
 			<img className="productCard__img" src={props.url} alt="houston we have a problems"></img>
 			<p className="productCard__text">{props.text}</p>
-			<p className="productCard__price">{props.price}₽</p>
+			<p className="productCard__price">{props.price}</p>
 		</div>
 	);
 }

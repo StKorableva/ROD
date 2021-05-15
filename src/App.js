@@ -15,7 +15,7 @@ function App() {
 				}}
 				/* url="./test" */
 				text="data / style for test(without fonts)"
-				price="1000"
+				price="1000₽"
 			></ProductCard>
 			<p>ROD will be here! August 2021 :)</p>
 		</div>
