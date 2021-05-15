@@ -1,4 +1,5 @@
 .productCard{
+    position:relative;
     background-color: #000000;
     margin:18px;
     height: 322px;
@@ -13,4 +14,10 @@
     text-align:left;
     color:white;
     font-size: 14px;
+}
+.productCard__addToFavorites{
+    margin:5px;
+    position:absolute;
+    top:0;
+    right: 0;
 }
