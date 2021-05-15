@@ -1,4 +1,3 @@
-/* eslint-disable no-debugger, no-console */
 import './Footer.css';
 
 function Footer(props) {
