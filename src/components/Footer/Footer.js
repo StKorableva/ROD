@@ -9,7 +9,7 @@ function Footer(props) {
 	}
 	return (
 		<div className="footer">
-			<p className="footer__heading">READ OR DIE</p>
+			<p className="footer__heading">ROD</p>
 			<p className="footer__copyright">© {getCurrentYear()} Some amazing team</p>
 			<div className="footer__socials">
 				<img className="footer__socials__twitter" src={twitterIcon} alt=""></img>
