@@ -4,10 +4,40 @@ exports[`base test snapshot test 1`] = `
 <div
   className="footer"
 >
-  <p
-    className="footer__name"
+  <div
+    className="footer__textBox"
   >
-    Where the fucking footer in the mobile version?
-  </p>
+    <p
+      className="footer__textBox__heading"
+    >
+      ROD
+    </p>
+    <p
+      className="footer__textBox__copyright"
+    >
+      © 
+      2021
+       Some amazing team
+    </p>
+  </div>
+  <div
+    className="footer__socials"
+  >
+    <img
+      alt=""
+      className="footer__socials__twitter"
+      src="twitter.svg"
+    />
+    <img
+      alt=""
+      className="footer__socials__facebook"
+      src="facebook.svg"
+    />
+    <img
+      alt=""
+      className="footer__socials__instagram"
+      src="instagram.svg"
+    />
+  </div>
 </div>
 `;

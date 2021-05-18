@@ -1,9 +1,7 @@
-import Enzyme, { shallow } from 'enzyme';
+import { shallow } from 'enzyme';
 import toJSON from 'enzyme-to-json';
-import Adapter from 'enzyme-adapter-react-16';
 import Footer from '../components/Footer/Footer';
 
-Enzyme.configure({ adapter: new Adapter() });
 describe('base test', () => {
 	let component = shallow(<Footer></Footer>);
 
