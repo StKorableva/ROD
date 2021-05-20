@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`base test snapshot test 1`] = `
+<div
+  className="eventCard"
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundImage": "urlundefined",
+    }
+  }
+>
+  <div
+    className="eventCard__contactInformationBox"
+  >
+    <p
+      className="eventCard__contactInformationBox__address"
+    >
+      Место проведения: 
+      Ул. Пушкина, 8
+    </p>
+    <p
+      className="eventCard__contactInformationBox__time"
+    >
+      23 Марта, 16:00
+    </p>
+  </div>
+  <div
+    className="eventCard__content"
+  >
+    <p
+      className="eventCard__content__heading"
+    >
+      Встреча с автором/выставка
+    </p>
+    <p
+      className="eventCard__content__text"
+    >
+      Пару предложений для описания эвента, что и кто там будет. Подробности о месте и времени встречи ниже.
+    </p>
+  </div>
+</div>
+`;
