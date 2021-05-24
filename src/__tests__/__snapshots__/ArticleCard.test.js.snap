@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`base test snapshot test 1`] = `
+<div
+  className="articleCard"
+  style={
+    Object {
+      "backgroundImage": "url(undefined)",
+    }
+  }
+>
+  <div
+    className="articleCard__contentBox"
+  >
+    <p
+      className="articleCard__contentBox__section"
+    >
+      Test section
+    </p>
+    <p
+      className="articleCard__contentBox__heading"
+    >
+      Test heading
+    </p>
+    <p
+      className="articleCard__contentBox__description"
+    >
+      Test description
+    </p>
+  </div>
+</div>
+`;
