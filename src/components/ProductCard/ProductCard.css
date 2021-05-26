@@ -2,14 +2,16 @@
     position:relative;
     background-color:#161515;/* var(--main-black-color) */
     margin:18px;
-    height: 322px;
-    width: 158px;
+    max-width: 158px;
+    width: 100%;
     color:white;
     cursor:pointer;
+    display: flex;
+    flex-direction: column;
 }
 .productCard__img{
-    height: 254px;
-    width: 158px;
+    max-width: 158px;
+    width: 100%;
 }
 
 .productCard p{
@@ -21,4 +23,13 @@
     position:absolute;
     top:0;
     right: 0;
+}
+.productCard__price{
+bottom:0;
+}
+.productCard__layout{
+    display:flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
 }

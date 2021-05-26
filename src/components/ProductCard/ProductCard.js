@@ -11,17 +11,13 @@ function ProductCard(props) {
 	};
 
 	const addToFavoritesIcon = liked ? (
-		<img
-			className="productCard__addToFavorites__icon"
-			src={heartIconLiked}
-			alt="houston we have a problems"
-		></img>
+		<svg width="24" height="24" viewBox={heartIconLiked.viewBox}>
+			<use xlinkHref={`#${heartIconLiked.id}`} />
+		</svg>
 	) : (
-		<img
-			className="productCard__addToFavorites__icon"
-			src={heartIconNotLiked}
-			alt="houston we have a problems"
-		></img>
+		<svg width="24" height="24" viewBox={heartIconNotLiked.viewBox}>
+			<use xlinkHref={`#${heartIconNotLiked.id}`} />
+		</svg>
 	);
 
 	return (
@@ -37,8 +33,10 @@ function ProductCard(props) {
 				src={imgUrl}
 				alt="houston we have a problems"
 			></img>
-			<p className="productCard__text">{text}</p>
-			<p className="productCard__price">{price}</p>
+			<div className="productCard__layout">
+				<p className="productCard__layout__text">{text}</p>
+				<p className="productCard__layout__price">{price}</p>
+			</div>
 		</div>
 	);
 }
