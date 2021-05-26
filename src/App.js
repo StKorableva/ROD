@@ -1,4 +1,6 @@
 import './App.css';
+import './css/style.css';
+import './css/normalize.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 
