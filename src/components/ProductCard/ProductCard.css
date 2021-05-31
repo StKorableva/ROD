@@ -1,9 +1,11 @@
 .productCard{
     position:relative;
-    background-color: #000000;
+    background-color:#161515;/* var(--main-black-color) */
     margin:18px;
     height: 322px;
     width: 158px;
+    color:white;
+    cursor:pointer;
 }
 .productCard__img{
     height: 254px;
@@ -12,7 +14,6 @@
 
 .productCard p{
     text-align:left;
-    color:white;
     font-size: 14px;
 }
 .productCard__addToFavorites{
