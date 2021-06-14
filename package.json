@@ -53,6 +53,8 @@
     "postcss-preset-env": "6.7.0",
     "postcss-safe-parser": "5.0.2",
     "prompts": "2.4.0",
+    "mrm": "^3.0.2",
+    "mrm-task-lint-staged": "^6.0.0",
     "react": "^17.0.2",
     "react-app-polyfill": "^2.0.0",
     "react-dev-utils": "^11.0.3",
@@ -171,5 +173,7 @@
     "presets": [
       "react-app"
     ]
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
   }
 }
