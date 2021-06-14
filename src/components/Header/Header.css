@@ -1,4 +1,47 @@
-.header__text {
-	color: tomato;
-	font-size: 20px;
+/* Header */
+.header {
+	background: rgba(22, 21, 21, 0.9);
+	padding: 21px 33px;
+	padding-bottom: 9px;
+}
+
+/* Nav */
+.header__nav a {
+	text-decoration: none;
+}
+
+/* Extra nav */
+.header__extra-nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+.header__extra-nav a {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #ffffff;
+	flex-basis: 50%;
+}
+
+.header__extra-nav a:first-child {
+	border-right: 1px solid #a7a7a7;
+}
+
+/* NavList */
+.header__nav-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.header__nav-item {
+	flex-grow: 1;
 }
