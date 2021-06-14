@@ -117,6 +117,9 @@
     "svg-sprite-loader": "^6.0.6",
     "webpack": "^4.44.2"
   },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
+  },
   "jest": {
     "roots": [
       "<rootDir>/src"
@@ -173,7 +176,5 @@
     "presets": [
       "react-app"
     ]
-  "lint-staged": {
-    "*.js": "eslint --cache --fix"
-  }
+}
 }
