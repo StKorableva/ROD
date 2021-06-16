@@ -27,7 +27,6 @@
 
 .block_of_product_cards__content_box{
     display: flex;
-    align-items: center;
     justify-content: space-around;
 }
 
