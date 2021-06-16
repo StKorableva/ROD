@@ -25,7 +25,7 @@ function PopularSectionStore(
 				price: 10000,
 				id: 2,
 			},
-			{
+			/* 			{
 				liked: true,
 				imgUrl:
 					'https://memepedia.ru/wp-content/uploads/2018/09/sc2jjgyqgui.jpg',
@@ -128,7 +128,7 @@ function PopularSectionStore(
 				text: 'Test test test test',
 				price: 10000,
 				id: 4,
-			},
+			}, */
 		],
 	},
 	action
