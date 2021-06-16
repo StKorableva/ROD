@@ -2,15 +2,16 @@
     position:relative;
     background-color:#161515;/* var(--main-black-color) */
     margin:18px;
-    width: 158px;
+    max-width: 158px;
+    width: 100%;
     color:white;
     cursor:pointer;
     display: flex;
     flex-direction: column;
 }
 .productCard__img{
-    max-height: 254px;
-    width: 158px;
+    max-width: 158px;
+    width: 100%;
 }
 
 .productCard p{

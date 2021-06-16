@@ -65,6 +65,70 @@ function PopularSectionStore(
 				price: 10000,
 				id: 4,
 			},
+			{
+				liked: false,
+				imgUrl:
+					'https://memepedia.ru/wp-content/uploads/2018/09/sc2jjgyqgui.jpg',
+				text: 'Test test test test',
+				price: 10000,
+				id: 4,
+			},
+			{
+				liked: false,
+				imgUrl:
+					'https://memepedia.ru/wp-content/uploads/2018/09/sc2jjgyqgui.jpg',
+				text: 'Test test test test',
+				price: 10000,
+				id: 4,
+			},
+			{
+				liked: false,
+				imgUrl:
+					'https://memepedia.ru/wp-content/uploads/2018/09/sc2jjgyqgui.jpg',
+				text: 'Test test test test',
+				price: 10000,
+				id: 4,
+			},
+			{
+				liked: false,
+				imgUrl:
+					'https://memepedia.ru/wp-content/uploads/2018/09/sc2jjgyqgui.jpg',
+				text: 'Test test test test',
+				price: 10000,
+				id: 4,
+			},
+			{
+				liked: false,
+				imgUrl:
+					'https://memepedia.ru/wp-content/uploads/2018/09/sc2jjgyqgui.jpg',
+				text: 'Test test test test',
+				price: 10000,
+				id: 4,
+			},
+			{
+				liked: false,
+				imgUrl:
+					'https://memepedia.ru/wp-content/uploads/2018/09/sc2jjgyqgui.jpg',
+				text: 'Test test test test',
+				price: 10000,
+				id: 4,
+			},
+			{
+				liked: false,
+				imgUrl:
+					'https://memepedia.ru/wp-content/uploads/2018/09/sc2jjgyqgui.jpg',
+				text: 'Test test test test',
+				price: 10000,
+				id: 4,
+			},
+			{
+				liked: false,
+				imgUrl:
+					'https://memepedia.ru/wp-content/uploads/2018/09/sc2jjgyqgui.jpg',
+				text: 'Test test test test',
+				price: 10000,
+				id: 4,
+			},
 		],
 	},
 	action

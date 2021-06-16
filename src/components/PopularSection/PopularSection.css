@@ -28,6 +28,7 @@
 .block_of_product_cards__content_box{
     display: flex;
     justify-content: space-around;
+    width: 100vw;
 }
 
 .block_of_product_cards__heading_box-text{
