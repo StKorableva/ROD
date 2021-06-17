@@ -1,10 +1,10 @@
-import { connect } from 'react-redux';
 import ProductCard from '../ProductCard/ProductCard';
 import '../PopularSection/PopularSection.css';
-import { mapStateToProps, mapDispatchToProps } from './PopularSectionMaps';
+//TODO передай в меня fetching, heading, data, addToFavoritesHandler, openProductPage и массив обьектов со свойствами liked, imgUrl, text, price, id
 
 function PopularSection(props) {
-	const { fetching, heading, data, addToFavoritesHandler } = props;
+	const { fetching, heading, data, addToFavoritesHandler, openProductPage } =
+		props;
 
 	const getDOM = function () {
 		let newDOM = [];
@@ -14,7 +14,7 @@ function PopularSection(props) {
 				<ProductCard
 					liked={liked}
 					openProductPage={() => {
-						console.log('openProductPage');
+						openProductPage();
 						//TODO добавить метод для открытия страницы товара(мне пока не понятно в каком виде это у нас будет происходить)
 					}}
 					addToFavorites={() => {
@@ -22,7 +22,8 @@ function PopularSection(props) {
 					}}
 					imgUrl={imgUrl}
 					text={text}
-					price={price} //TODO как будет храниться прайс? его нужно куда то преобразовывать?
+					price={price} //TODO как будет храниться прайс? его нужно как то преобразовывать в компоненте ?
+					key={id}
 				/>
 			);
 		}
@@ -35,7 +36,9 @@ function PopularSection(props) {
 		return (
 			<div className="block_of_product_cards">
 				<div className="block_of_product_cards__heading_box">
-					<p className="block_of_product_cards__heading_box-text">{heading}</p>
+					<p className="block_of_product_cards__heading_box-heading">
+						{heading}
+					</p>
 					<p className="block_of_product_cards__heading_box-link">
 						<a href="./">Смотреть всё</a>
 						{/* //TODO добавить адрес/функцию, мб передать пропсом извне  */}
@@ -47,4 +50,4 @@ function PopularSection(props) {
 	}
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(PopularSection);
+export default PopularSection;
