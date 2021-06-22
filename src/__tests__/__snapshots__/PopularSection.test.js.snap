@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`base test snapshot test 1`] = `
+<div
+  className="block_of_product_cards"
+>
+  <div
+    className="block_of_product_cards__heading_box"
+  >
+    <p
+      className="block_of_product_cards__heading_box-heading"
+    >
+      Популярное
+    </p>
+    <p
+      className="block_of_product_cards__heading_box-link"
+    >
+      <a
+        href="./"
+      >
+        Смотреть всё
+      </a>
+    </p>
+  </div>
+  <div
+    className="block_of_product_cards__content_box"
+  >
+    <ProductCard
+      addToFavorites={[Function]}
+      imgUrl="./"
+      key="1"
+      liked={true}
+      openProductPage={[Function]}
+      price={10000}
+      text="Test"
+    />
+    <ProductCard
+      addToFavorites={[Function]}
+      imgUrl="./"
+      key="1"
+      liked={false}
+      openProductPage={[Function]}
+      price={10000}
+      text="Test"
+    />
+  </div>
+</div>
+`;

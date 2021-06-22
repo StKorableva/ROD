@@ -1,0 +1,43 @@
+.block_of_product_cards{
+    background-color:  var(--main-black-color);
+    color: #FFFFFF;
+    letter-spacing: -0.3px;
+    width: 100vw;
+}
+
+.block_of_product_cards a{
+    color: #FFFFFF !important;
+    text-decoration: none
+    /*//TODO font-family: 'Avenir Next' походу платный шрифт 
+    //https://www.fontshop.com/families/avenir-next
+    */
+}
+
+.block_of_product_cards__heading_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.block_of_product_cards__heading_box-heading{
+    font-family: 'Cormorant', serif;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: -0.3px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.block_of_product_cards__heading_box p{
+    margin:10px 20px 10px 20px;
+}
+
+.block_of_product_cards__content_box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.block_of_product_cards__heading_box-link{
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    text-decoration-line: underline;
+}
