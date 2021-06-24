@@ -382,10 +382,9 @@ module.exports = function (webpackEnv) {
 						// A missing `test` is equivalent to a match.
 						{
 							test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
-							loader: require.resolve('url-loader'),
+							loader: 'file-loader',
 							options: {
-								limit: imageInlineSizeLimit,
-								name: 'static/media/[name].[hash:8].[ext]',
+								outputPath: 'static/img',
 							},
 						},
 						{

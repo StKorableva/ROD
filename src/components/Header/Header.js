@@ -7,6 +7,10 @@ import heartIcon from '../../assets/img/heart-icon.svg';
 import cartIcon from '../../assets/img/cart-icon.svg';
 import userIcon from '../../assets/img/user-icon.svg';
 
+// Images
+import RODlogo1x from '../../assets/img/ROD@1x.png';
+import RODlogo2x from '../../assets/img/ROD@2x.png';
+
 function Header() {
 	return (
 		<header className="header">
@@ -30,10 +34,10 @@ function Header() {
 						<a href="./" aria-label="Ссылка на главную">
 							<picture>
 								<img
-									width="67"
-									height="39"
-									src="./img/ROD-logo@1x.png"
-									srcSet="./img/ROD-logo@2x.png 2x" // TODO хранение графики и доступ к ней
+									width="65"
+									height="22"
+									src={RODlogo1x}
+									srcSet={RODlogo2x}
 									alt="Лого ROD"
 								/>
 							</picture>
