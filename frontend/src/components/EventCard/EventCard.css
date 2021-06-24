@@ -1,0 +1,43 @@
+.eventCard{
+    /* Цвет для наглядности, пождразумевается использование background-img из компонента */
+    background-color: rgb(250, 185, 87);
+    /* Цвет для наглядности, пождразумевается использование background-img из компонента */
+    width: 335px;
+    height: 233px;
+    position: relative;
+}
+.eventCard__contactInformationBox{
+    background: rgba(22, 21, 21, 0.7);
+    width: 335px;
+    height: 47px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.eventCard p{
+    text-align: left;
+    margin: 5px;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+}
+.eventCard__contactInformationBox__address{
+    font-size: 12px;
+    line-height: 16px;}
+.eventCard__contactInformationBox__time{
+    font-size: 12px;
+    line-height: 16px;}
+.eventCard__content{
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+.eventCard__content__heading{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+.eventCard__content__text{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
