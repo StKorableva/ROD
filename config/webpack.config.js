@@ -130,7 +130,7 @@ module.exports = function (webpackEnv) {
 						// Adds PostCSS Normalize as the reset css with default options,
 						// so that it honors browserslist config in package.json
 						// which in turn let's users customize the target behavior as per their needs.
-						postcssNormalize(),
+						// postcssNormalize({ allowDuplicates: true }),
 					],
 					sourceMap: isEnvProduction ? shouldUseSourceMap : isEnvDevelopment,
 				},
@@ -382,10 +382,18 @@ module.exports = function (webpackEnv) {
 						// A missing `test` is equivalent to a match.
 						{
 							test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
-							loader: require.resolve('url-loader'),
+							loader: 'file-loader',
 							options: {
-								limit: imageInlineSizeLimit,
-								name: 'static/media/[name].[hash:8].[ext]',
+								outputPath: 'static/img',
+								name: '[name].[ext]',
+							},
+						},
+						{
+							test: [/\.(ttf|woff|woff2)$/],
+							loader: 'file-loader',
+							options: {
+								outputPath: 'static/fonts',
+								name: '[name].[ext]',
 							},
 						},
 						{
