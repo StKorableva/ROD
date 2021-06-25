@@ -1,38 +1,46 @@
 import './Footer.css';
+
+// Icons
 import twitterIcon from '../../assets/img/twitter.svg';
-import instagramIcon from '../../assets/img/instagram.svg';
 import facebookIcon from '../../assets/img/facebook.svg';
+import instagramIcon from '../../assets/img/instagram.svg';
 
 function Footer(props) {
 	function getCurrentYear() {
 		return new Date().getFullYear();
 	}
 	return (
-		<div className="footer">
+		<footer className="footer">
 			<div className="footer__textBox">
-				<p className="footer__textBox__heading">ROD</p>
-				<p className="footer__textBox__copyright">
+				<p className="footer__textBox-heading">ROD</p>
+				<p className="footer__textBox-copyright">
 					© {getCurrentYear()} Some amazing team
 				</p>
 			</div>
-			<div className="footer__socials">
-				<img
-					className="footer__socials__twitter"
-					src={twitterIcon}
-					alt="houston we have a problems"
-				></img>
-				<img
-					className="footer__socials__facebook"
-					src={facebookIcon}
-					alt="houston we have a problems"
-				></img>
-				<img
-					className="footer__socials__instagram"
-					src={instagramIcon}
-					alt="houston we have a problems"
-				></img>
-			</div>
-		</div>
+			<ul className="footer__socials">
+				<li>
+					<a href="./" aria-label="Мы в Твиттере">
+						<svg width="32" height="32" viewBox={twitterIcon.viewBox}>
+							<use xlinkHref={`#${twitterIcon.id}`} />
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="./" aria-label="Мы в Фейсбуке">
+						<svg width="32" height="32" viewBox={facebookIcon.viewBox}>
+							<use xlinkHref={`#${facebookIcon.id}`} />
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="./" aria-label="Мы в Инстаграме">
+						<svg width="32" height="32" viewBox={instagramIcon.viewBox}>
+							<use xlinkHref={`#${instagramIcon.id}`} />
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</footer>
 	);
 }
 
