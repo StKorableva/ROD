@@ -35,6 +35,10 @@ Load data on github-pages
 
 To see lint issues run 'npm lint', to fix lint problems run 'npm lint:fix'
 
+### `npx prepare-husky`
+
+To install husky in your directory(For all branches).
+
 ## Code style
 
 + Используем последние возможности реакта ввиде функциональных компонентов и хуков;
